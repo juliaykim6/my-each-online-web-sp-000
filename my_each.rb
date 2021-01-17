@@ -6,6 +6,7 @@ def my_each(words)
     i = words + "!"
 
 end
+end
   array
 end
 end
