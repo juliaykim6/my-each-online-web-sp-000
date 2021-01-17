@@ -8,7 +8,6 @@ def my_each(array)
     my_each(words) do |word|
       puts word
     end
-  end
-  end
   array
+end
 end
