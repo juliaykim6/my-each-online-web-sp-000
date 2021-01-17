@@ -1,13 +1,11 @@
-def my_each(array)
+def my_each(words)
   # put argument(s) here
   # code here
-  while array.length > 0
-    yield (array[i])
-    i = i + 1
+  while words.length > 0
+    yield (words[i])
+    i = words + "!"
 
-    my_each(words) do |word|
-      word
-    end
+end
   array
 end
 end
