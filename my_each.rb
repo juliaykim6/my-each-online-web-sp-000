@@ -3,8 +3,7 @@ def my_each(words)
   # code here
   while words.length > 0
     yield (words)
-    words
 
 end
-  array
+  words
 end
