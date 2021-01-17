@@ -4,6 +4,11 @@ def my_each(array)
   while array.length > 0
     yield (array[i])
     i = i + 1
+
+    my_each(words) do |word|
+      puts word
+    end
+  end
   end
   array
 end
