@@ -7,6 +7,6 @@ def my_each(array)
     yield (word[i])
   end
   array
-else puts ""
+else  ""
 end
 end
