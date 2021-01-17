@@ -3,7 +3,7 @@ def my_each(words)
   # code here
   while words.length > 0
     yield (words)
-    i = words + "!"
+    words
 
 end
   array
